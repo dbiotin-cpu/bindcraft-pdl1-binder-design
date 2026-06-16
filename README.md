@@ -73,6 +73,10 @@ F --> G[Accepted Binders]
 | Interface pAE                 | 0.16                    |
 | Predicted Binding Energy (dG) | -45.42                  |
 
+### Top Candidate Structure
+![Top Candidate](images/top_binder_complex.png)
+## Binding Interface
+![Binding Interface](images/top_binder_complex2.png)
 ---
 
 ## Key Observation
@@ -91,14 +95,15 @@ As a follow-up analysis, I plan to compare these binders with antibody-based PD-
 results/
 ├── final_design_stats.csv
 ├── trajectory_stats.csv
-└── accepted_designs/
+
+structures/
+├── PDL1_l136_s216931_mpnn1_model1.pdb
+└── PDL1_l136_s216931_mpnn3_model1.pdb
 
 images/
-├── workflow.png
-└── top_binder_complex.png
+├── top_binder_complex.png
+└── top_binder_complex2.png
 
-scripts/
-└── analysis.ipynb
 ```
 
 ---

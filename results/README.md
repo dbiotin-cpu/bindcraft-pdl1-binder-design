@@ -1,1 +1,0 @@
-BindCraft output files.
